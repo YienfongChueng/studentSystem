@@ -3,9 +3,9 @@
     <el-menu
       router
       class="el-menu-vertical-demo"
-      background-color="rgb(83, 168, 255)"
+      background-color="rgba(34, 50, 92, 1)"
       text-color="#fff"
-      active-text-color="#E6A23C">
+      active-text-color="rgba(70, 133, 255, 0.35)">
       <template v-for="(item,index) in menu" >
         <el-submenu v-if="!item.hidden" :index="item.name + index" :key="item.name + index" >
             <template slot="title" >

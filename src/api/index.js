@@ -63,8 +63,24 @@ export function deleteInfoById(id) {
 // 作业列表分页查询
 export function getWorkList(params) {
     return request({
-        methos: 'get',
+        method: 'get',
         url:'/works',
         params
+    })
+}
+
+
+export function getDataview() {
+    return request({
+        method: 'get',
+        url: 'dataview'
+    })
+}
+
+// 旅游地图接口
+export function gettravelData() {
+    return request({
+        method: 'get',
+        url: '/travel'
     })
 }

@@ -9,10 +9,11 @@
 <style lang="less" scoped>
 .footer {
     height: 60px;
-     background: #409EFF;
+     background: rgba(26, 38, 69, 1);
     font-size: 14px;
     text-align: center;
     line-height: 60px;
+    color: #fff;
 }
 
 </style>
